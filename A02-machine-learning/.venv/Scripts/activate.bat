@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set VIRTUAL_ENV=C:\Users\D18_11\Documents\Programacao-IA\A02-machine-learning\.venv
+set VIRTUAL_ENV=C:\Users\D18_11\Documents\GitHub\Programacao-IA\A02-machine-learning\.venv
 
 if not defined PROMPT set PROMPT=$P$G
 

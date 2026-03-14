@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\D18_11\Documents\Programacao-IA\A02-machine-learning\.venv"
+VIRTUAL_ENV="C:\Users\D18_11\Documents\GitHub\Programacao-IA\A02-machine-learning\.venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
