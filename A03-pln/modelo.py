@@ -20,7 +20,7 @@ nlp = spacy.load("pt_core_news_sm") #carregando da lib da spacy em português
 def prep(texto):
     doc = nlp(texto) #processamento do texto (tokenização e analise probabilistica)
     
-    return "".join([
+    return " ".join([
         token.lemma_.lower()
         for token in doc
         if not token.is_punct #remove qualquer tipo de pontuação
